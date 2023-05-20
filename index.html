@@ -8,6 +8,30 @@
     <title>Counter|Inc Dec</title>
 </head>
 <body>
+    <!-- wrapper -->
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+
+        <div class="text-[#0398d4] font-medium text-[20px]">
+            Increment & Decrement
+        </div>
+
+        <div class="flex bg-white text-[#344151] text-[25px] rounded-sm gap-12 p-3 px-5">
+            
+            <!-- inc button  -->
+            <button onclick="increment()" class="border-r-2 border-[#bfbfbf] pr-5">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+
+            <div class="font-bold">0</div>
+
+            <!-- dec button -->
+            <button onclick="decrement()" class="border-l-2 border-[#bfbfbf] pl-5">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
     
+    <script src="https://kit.fontawesome.com/1807d9d850.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
